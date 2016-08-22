@@ -1,0 +1,57 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.rotator-view {
+  left: 12%;
+  height: 300px;
+  display: block;
+  position: relative;
+  width: 1000px;
+  overflow: hidden;
+}
+
+.ul-rotator-horizontal{
+  position: absolute;
+  padding-left: 0;
+  height: 300px;
+  width: 900%;
+  transform: translateX(-350px);
+}
+
+
+.ul-rotator-horizontal img {
+  top:0;
+  left:0;
+  float:left;
+  width: 300px;
+  height: 300px; 
+	display: block;
+  position: static;
+  margin-right: 50px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.ul-rotator-vertical{
+  left: 450px;
+  position: absolute;
+  padding-left: 0;
+  height: 100000px;
+  width: 100px;
+  z-index: 100;
+  }
+
+.ul-rotator-vertical img {
+  margin-bottom:100px; 
+  margin-top:100px;
+  height: 100px;
+  width: 100px;
+  transform: translateY(-300px);
+}
+  
+
+
+
+
+
+

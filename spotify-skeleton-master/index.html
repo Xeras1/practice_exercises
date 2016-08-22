@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<div class="widget">
+		<div id="header">
+		<form>
+		<input type="text" name="song" class="user-search" placeholder="Search for a song (nothing will happen... Or yes?">
+		</form>
+		</div>
+		<div class="cover">
+		<img class="cover-image" src="https://i.scdn.co/image/04da6dfc1f5f45fdeba938a0cc71cf372524fd43">
+		</div>
+		<div class="header">
+		<!-- Try adding/removing these classes: -->
+		<!-- disabled -->
+		<!-- playing -->
+
+		<div class="btn-play "></div>
+
+		<div class="metadata">
+		  <p class="title">Hunger of The Pine</p>
+		  <p class="author"> <a href="#" class="to-author-info"> alt-J</a> </p>
+
+		  <div class="seekbar">
+		    <progress class="song-progress" value=0 max="30"></progress>
+		  </div>
+		</div>
+		</div>
+		<audio src="https://p.scdn.co/mp3-preview/8e9c5ffdc38e91659bfe8b6bd44650dfc25a3d31" class="js-player"></audio>
+	</div>
+<div class="modal fade js-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <!-- Close button -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span>&times;</span>
+        </button>
+
+        <h2>alt-J</h2>
+      </div>
+
+      <div class="modal-body">
+        <img class="photo" src="">
+        <h4>Followers:</h4>
+        <p class="followers">seguidores</p>
+        <h4>Popularity:</h4>
+        <p class="popularity">popularidad</p>
+        <h4>Genres:</h4>
+        <p class="genres">genero</p>
+      </div>
+
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</body>
+</html>
