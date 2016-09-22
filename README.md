@@ -10,10 +10,8 @@ Hereunder I write few descriptions of the projects:
     
     - vikings.js: this fighting pits was funny. We started using js, leaving behind ruby language for a week. Doing these exercise settled lot of ideas and js language. Very order code (from my point of view)
 
-
     - spotify_searcher: In this case, the search was done with the appi from spoty, I struggled a lot with the js. This is, again, not finished; however, completing the first step, the following ones where very similar. 
 
-    
     - spotify_skeleton_master: This exercisa was key for my final project, which has lot of js. 
 
     - places_ive_been_master: This exercise allow me to understand the basis of cookies and how to work with the navegator information
